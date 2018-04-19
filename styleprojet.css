@@ -1,0 +1,70 @@
+body{
+	background-color: #3d878a;
+}
+
+/* HEADER */
+
+header{
+	background-color: #153C3E;
+	text-align: center;
+	margin: 10px;
+	padding: 25px;
+}
+
+h2{
+	color: aliceblue;
+}
+
+/* MAIN */
+
+main{
+	background-color: aliceblue;
+	margin: 10px;
+	padding: 25px;
+}
+
+section{
+	/*display: inline-flex;*/
+}
+
+article{
+	margin: 30px;
+}
+
+figure{
+	display: inline-flex;
+	margin: 5px;
+}
+
+img{
+	margin: 5px;
+}
+
+/* FOOTER */
+
+footer{
+	margin-top: 15px;
+	margin-bottom: -3px;
+	padding: 10px;
+	
+	color: white;
+	font-size: 13px;
+	
+	background-color: #153C3E;
+}
+
+#foot{
+	display: flex;
+	flex-direction: column;
+}
+
+#reseau{
+	display: inline-flex;
+	margin-bottom: 20px;
+}
+
+#copyright{
+	display: inline-flex;
+	justify-content: flex-end; 
+}
+	

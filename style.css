@@ -1,0 +1,230 @@
+/* BLOC */
+
+body{
+	background-color: #3d878a;
+	display: inline-block;
+}
+
+header{
+	
+}
+
+hearder figure{
+	width: 100%;
+	height: 50%;
+	margin: 0px;
+}
+
+#espace{
+	height: 70px;
+}
+
+nav{
+	z-index: 2;
+	position : fixed;
+	top: 0px;
+	width: 100%;
+	
+	background-color: #153C3E;
+	text-align: center;
+}
+
+nav li{
+	background-color: #3D878A;
+	border : 3px solid #3D878A;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 10px;
+	display: inline-flex;
+
+}
+
+nav a{
+	color: white;
+}
+
+/* SECTION */
+
+#presentation, #formation, #projet, #experience, #competence, #centre, #contact{
+	padding: 40px;
+}
+	
+#presentation, #experience, #projet , #contact{
+	background-color: #222222;
+	color: white;
+}
+
+#formation,#competence, #centre{
+	background-color: #bbbbbb;
+}
+
+/* TYPO */
+
+h2{
+	display: flex;
+	justify-content : center;
+	
+	font-size: 20;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h3{
+	font-size: 16;
+}
+
+h4{
+	font-size : 14;
+}
+
+h5{
+    
+}
+
+p{
+	margin: 5px;
+}
+
+#presentation figcaption{
+    font-size: 3em;
+}
+
+/* IMAGE */
+
+h4 img{
+    width: 100px;
+    height: 100px;
+}
+
+#presentation figure{
+	display: flex;
+	justify-content: center;
+}
+
+#projet article{
+	display: flex;
+	justify-content: center;
+}
+
+#presentation div{
+    display: flex;
+	justify-content: center;
+    font-size: 3em;
+}
+
+#carousel{
+	max-width: 800px;
+	max-height: 300px;
+    margin: 20px
+}
+
+#carousel img{
+	width: 800px;
+	height: 300px;
+}
+
+/* LISTE */
+
+ul li{
+	list-style-type: circle;
+}
+
+/* LIENS */
+
+li a:hover{
+    text-decoration: none;
+}
+
+/* PROJET */
+
+
+/* COMPETENCES */
+
+#conception, #prog1, #prog2, #web1, #web2, #web3, #systeme, #gest{
+	display: inline-flex;
+}
+
+#reseau{
+	height: 80px;
+	width: 100%;
+}
+
+#conception, #prog2, #web3, #systeme, #bdd, #gest{
+	border-bottom: solid black 2px;
+}
+
+#ihm, #uml, #java, #bash, #c, #python, #html, #css, #bootstrap, #jquery, #wordpress, #wix, #windows, #linux, #gestion, #gestion2, #sql{
+	display: inline-flex;
+	margin: 15px;
+	width: 50%;
+}
+
+/* CENTRES D'INTERETS */
+
+#interets div{
+	display: inline-flex;
+	margin: 10px;
+}
+
+/* CONTACT */ 
+
+#contact2{
+	display: inline-flex;
+}
+
+#contact figure{
+	width: 32em;
+}
+
+#contact img{
+	 margin-left: 30px;
+}
+
+/* FOOTER */
+
+footer{
+	margin-top: 15px;
+	margin-bottom: -3px;
+	padding: 10px;
+	
+	color: white;
+	font-size: 13px;
+	
+	background-color: #153C3E;
+}
+
+#foot{
+	display: flex;
+	flex-direction: column;
+}
+
+#reseau{
+	display: inline-flex;
+	margin-bottom: 20px;
+}
+
+#copyright{
+	display: inline-flex;
+	justify-content: flex-end; 
+}
+
+/* BOUTON */
+
+#bouton{
+	align-self: center;
+}
+
+button{
+	background-color: #3d878a;
+	color: #153c3e;
+	
+	border-color: #3d878a;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	
+	font-size:20px;
+}
+
+
+
+
